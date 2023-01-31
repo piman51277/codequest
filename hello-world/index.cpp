@@ -8,8 +8,7 @@ int main(){
   std::cin >> numTestCases;
 
   //get rid of the newline character
-  std::string dump;
-  std::getline(std::cin, dump);
+  std::cin.ignore(1);
 
   //handle test cases
   for (int i = 0; i < numTestCases; i++){
