@@ -20,7 +20,7 @@ int main(){
 
     //iterate over the string
     int vowels = 0;
-    for (char &ch : caseString)
+    for (char ch : caseString)
     {
       if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
       {
